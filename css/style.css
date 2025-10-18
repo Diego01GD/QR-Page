@@ -5,11 +5,6 @@
   --slate900: hsl(218, 44%, 22%);
 }
 
-@font-face {
-  font-family: "Outfit";
-  src: url(https://fonts.google.com/specimen/Outfit);
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -18,7 +13,8 @@
 
 body{
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: Outfit;
   color: var(--slate500);
   line-height: 1.2;
+  background-color: var(--slate300);
 }
